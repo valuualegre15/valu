@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Portfolio</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <h2 id="vale" >Valentina Alegre</h2>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>  <img class="val" src="img/valu.jpg" alt="">
+            <p><span>Hola, soy Valentina Alegre.</span> Tengo 24 años y soy estudiante de programacion, este porfolio es una pagina web y la cree con mis conocimientos de Html Css y JavaScript. Estudie diseño de modas 3 años en Peter Hamers Fashion Design School. Cuento con un gran nivel de ingles y tengo experiencia laboral como creadora de contenido en Redes, Marca de ropa personal, etc. Me considero una persona sumamente creativa y con grandes ideas que me gusta desempeñar.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            04/02/1999
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            092993566
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            valuualegre15@icloud.com
+                        </li>
+                      
+                        <li>
+                            <strong>Dirección</strong>
+                            Luis Alberto de Herrera 4492
+                        </li>
+                        
+                        
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-bolt"></i>
+                            <span>TENDENCIAS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-user"></i>                            <span>ATENCION AL PUBLICO</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-shirt"></i>
+                            <span>MODA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-cloud"></i>
+                            <span>WEB</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <button>
+                <a id="aa" href="img/cv.jfif">Descargar CV <i class="fa-solid fa-download"></i>
+                    <span class="overlay"></span></a>
+                
+            </button>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Html CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dibujo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Modas</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Photoshop</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>81%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Java Script</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proyect Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Bachillerato completo</h4>
+                        <span class="casa">Colegio y Liceo El Clemente</span>
+                        <span class="fecha">2012 - 2018</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Ingles Avanzado</h4>
+                        <span class="casa">Anglo</span>
+                        <span class="fecha"></span>
+                        <p>Estudio de ingles durante 14 años consecutivos. Nivel de ingles First Certificate</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Diseño de Modas</h4>
+                        <span class="casa">Peter Hamers</span>
+                        <span class="fecha">2018 - 2021</span>
+                        <p>Estudio de diseño de modas durante 3 años</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Creacion de diversas paginas web</h4>
+                        <span class="casa"></span>
+                        <span class="fecha">2022 - actualidad</span>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Emprendimiento de diseño</h4>
+                        <span class="casa">Autonomo</span>
+                        <span class="fecha">2019 - 2021</span>
+                        <p>Creacion y venta de distintos tipos de indumentaria</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Moza en Catering de eventos</h4>
+                        <span class="casa">M & A</span>
+                        <span class="fecha">2020 - 2022</span>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/69372870_521712198636821_2732449507493237433_n.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Uno de los diseños realizados por mi</h3>
+                        <p>en Peter Hamers</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/69557464_407604166592492_286079621305870385_n.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Uno de los diseños realizados por mi</h3>
+                        <p>en Peter Hamers</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/f2dd195c-c86a-47d0-acd7-49f6ed6d935d.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Workshop Levi's</h3>
+                        <p>Creacion e intervencion de jean 501</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/8ae411a1-bdde-4556-9887-49e76e91ebb8.jfif" alt="">
+                    <div class="overlay">
+                        <h3>Workshop Levi's</h3>
+                        <p>intervencion de bolsillo 501</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/04cf6244-9ad4-4bfd-861f-c26ce2cd80b5.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Workshop Levi's</h3>
+                        <p>Foto subida en las redes de Levi's de mi bolsillo intervenido.</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/41e9439f-bad4-4ee2-97c2-16ce70b09151.jfif" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Boceto</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+          
+                <!-- Mapa -->
+                <div class="col">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3273.9573541148316!2d-56.19844882481328!3d-34.85729887093364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a02ab1c5f881af%3A0xd863307b364e49c2!2sAv.%20Luis%20Alberto%20de%20Herrera%204492%2C%2011700%20Montevideo%2C%20Departamento%20de%20Montevideo!5e0!3m2!1ses!2suy!4v1681961264427!5m2!1ses!2suy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>   
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Luis Alb de Herrera 4492
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                092993566
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                valuualegre15@icloud.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-skype"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-solid fa-rss"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
